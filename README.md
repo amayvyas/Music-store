@@ -45,20 +45,17 @@ json-server --watch db.json --port 5000
 This will serve the database at http://localhost:5000/songs
 
 ## Running the React App
-Start the development server:
+1. Start the development server:
+```sh
 npm start
-Using React Router
+```
+2. Using React Router
 Routes are managed using react-router-dom. Ensure it is installed:
-
-sh
-Copy
-Edit
+```sh
 npm install react-router-dom
+```
 Example usage in App.js:
-
-jsx
-Copy
-Edit
+```sh
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import SongDetails from './pages/SongDetails';
@@ -75,30 +72,26 @@ function App() {
 }
 
 export default App;
+```
+
 Styling with Sass
 Ensure sass is installed:
-
-sh
-Copy
-Edit
+```sh
 npm install sass
+```
 Use .scss files for styling:
-
-scss
-Copy
-Edit
+```sh
 $primary-color: #ff6600;
 
 body {
   background-color: $primary-color;
 }
+```
 Build the Project
 To create a production build:
-
-sh
-Copy
-Edit
+```sh
 npm run build
+```
 Conclusion
 Now you have a fully functional React Music Store with:
 
